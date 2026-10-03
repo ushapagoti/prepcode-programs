@@ -1,6 +1,6 @@
-buying_price=int(input("enter the buying price: "))
-selling_price=int(input("enter the amount you sold for: "))
-total_product=int(input("enter the amount of product: "))
-storage_prize=int(input("storage amount: "))
-profit=((selling_prize_buying_price)*total_product)
-print(f"total.profit:{profit}")
+buying_price=int(input("enter the buying price:"))
+selling_price=int(input("enter the amount you sold for:"))
+total_product=int(input("enter the amount of product:"))
+storage_price=int(input("storage amount:"))
+profit=((selling_price-buying_price)*total_product)-storage_price
+print(f"total profit:{profit}")
