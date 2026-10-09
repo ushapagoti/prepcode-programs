@@ -1,0 +1,2 @@
+list("abc")
+print(list)
